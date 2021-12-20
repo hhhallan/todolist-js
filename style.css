@@ -1,0 +1,48 @@
+*, :before, :after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    max-width: 475px;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #374956;
+}
+
+.checked {
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.form-content > .inp-wrapper {
+    width: 70%;
+}
+
+.form-content > .submit {
+    width: 28%;
+}
